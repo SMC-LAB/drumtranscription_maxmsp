@@ -1,0 +1,4 @@
+LIBRARY onlineClusterKNN.mxe
+
+EXPORTS
+	main

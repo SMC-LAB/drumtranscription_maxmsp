@@ -1,0 +1,4 @@
+LIBRARY timbreID.mxe
+
+EXPORTS
+	main

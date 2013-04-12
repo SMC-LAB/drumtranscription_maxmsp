@@ -1,0 +1,4 @@
+LIBRARY featureMean.mxe
+
+EXPORTS
+	main
