@@ -1,0 +1,4 @@
+LIBRARY featureWeightedMean.mxe
+
+EXPORTS
+	main

@@ -1,0 +1,4 @@
+LIBRARY binAverageBang.mxe
+
+EXPORTS
+	main
