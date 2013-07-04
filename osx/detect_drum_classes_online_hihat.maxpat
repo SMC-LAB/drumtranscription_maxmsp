@@ -47,7 +47,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
 					"patching_rect" : [ 41.0, 145.0, 45.0, 18.0 ],
-					"text" : "select 1"
+					"text" : "select 0"
 				}
 
 			}
