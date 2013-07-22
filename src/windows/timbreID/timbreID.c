@@ -3254,26 +3254,32 @@ static t_float timbreID_correlation(t_timbreID *x, t_float *v1, t_float *v2)
 	return(correlation);
 }
 
+//static void timbreID_makepath(char *filename, char *buf)
+//{
+//    char *tmpStr;
+//    short defaultPathID, idp = -1;
+//    
+//	// create local memory
+//    tmpStr = (char *)t_getbytes_(MAXPDSTRING * sizeof(char));
+//    //buf = strcat(x->defaultPathname, "/");
+//    
+//    defaultPathID = path_getdefault();
+//    
+//    idp = path_topotentialname(defaultPathID, filename, tmpStr, 0);
+//    if (idp == 0)
+//    {
+//        path_nameconform(tmpStr, buf, PATH_STYLE_NATIVE, PATH_TYPE_PATH);              
+//    }
+//    else post("Could not find the file %s ", filename);
+//    
+//    // free memory    
+//    t_freebytes_(tmpStr, MAXPDSTRING*sizeof(char));
+//}
+
 static void timbreID_makepath(char *filename, char *buf)
 {
-    char *tmpStr;
-    short defaultPathID, idp = -1;
-    
-	// create local memory
-    tmpStr = (char *)t_getbytes_(MAXPDSTRING * sizeof(char));
-    //buf = strcat(x->defaultPathname, "/");
-    
-    defaultPathID = path_getdefault();
-    
-    idp = path_topotentialname(defaultPathID, filename, tmpStr, 0);
-    if (idp == 0)
-    {
-        path_nameconform(tmpStr, buf, PATH_STYLE_NATIVE, PATH_TYPE_PATH);              
-    }
-    else post("Could not find the file %s ", filename);
-    
-    // free memory    
-    t_freebytes_(tmpStr, MAXPDSTRING*sizeof(char));
+    path_nameconform(filename, buf, PATH_STYLE_NATIVE, PATH_TYPE_PATH);             
+  
 }
 
 /* ---------------- END utility functions ---------------------- */

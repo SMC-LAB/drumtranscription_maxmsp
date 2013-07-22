@@ -167,6 +167,7 @@
 						"description" : "",
 						"digest" : "",
 						"tags" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -202,8 +203,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 119.5, 208.0, 49.0, 20.0 ],
-									"text" : "s tID_h"
+									"patching_rect" : [ 119.5, 208.0, 48.0, 20.0 ],
+									"text" : "s tID_s"
 								}
 
 							}
