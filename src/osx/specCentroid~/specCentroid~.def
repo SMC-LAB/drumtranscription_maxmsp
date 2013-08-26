@@ -1,0 +1,4 @@
+LIBRARY specCentroid~.mxe
+
+EXPORTS
+	main

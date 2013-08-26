@@ -1,0 +1,4 @@
+LIBRARY barkSpec~.mxe
+
+EXPORTS
+	main
