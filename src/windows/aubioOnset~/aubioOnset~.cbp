@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="aubioOnset~" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\aubioOnset~" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\aubioOnset~" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DWIN_VERSION -DWIN_EXT_VERSION" />
+			<Add option="-DWIN_VERSION" />
+			<Add option="-DWIN_EXT_VERSION" />
+			<Add directory="..\..\..\c74support\max-includes" />
+			<Add directory="..\..\..\c74support\msp-includes" />
+			<Add directory="aubioFullWinUni\include\aubio" />
+			<Add directory="aubioFullWinUni\include\fft" />
+			<Add directory="aubioFullWinUni\include\libsamplerate" />
+			<Add directory="aubioFullWinUni\include\libsndfile" />
+		</Compiler>
+		<Linker>
+			<Add option="-shared" />
+			<Add library="MaxAPI" />
+			<Add library="MaxAudio" />
+			<Add library="aubioFullWinUni\lib\libaubio-2.dll" />
+			<Add library="aubioFullWinUni\lib\libaubioext-2.dll" />
+			<Add library="aubioFullWinUni\lib\libfftw3-3.dll" />
+			<Add library="aubioFullWinUni\lib\libsamplerate-0.dll" />
+			<Add library="aubioFullWinUni\lib\libsndfile-1.dll" />
+			<Add directory="..\..\..\c74support\max-includes" />
+			<Add directory="..\..\..\c74support\msp-includes" />
+			<Add directory="aubioFullWinUni\lib" />
+		</Linker>
+		<Unit filename="aubioOnset~.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="libaubio-2.dll.cpp" />
+		<Unit filename="libaubio-2.dll.h" />
+		<Unit filename="libaubioext-2.dll.cpp" />
+		<Unit filename="libaubioext-2.dll.h" />
+		<Unit filename="libfftw3-3.dll.cpp" />
+		<Unit filename="libfftw3-3.dll.h" />
+		<Unit filename="libsamplerate-0.dll.cpp" />
+		<Unit filename="libsamplerate-0.dll.h" />
+		<Unit filename="libsndfile-1.dll.cpp" />
+		<Unit filename="libsndfile-1.dll.h" />
+		<Unit filename="m_memory.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="m_memory.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,201 @@
+# depslib dependency file v1.0
+1352910050 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\libaubio-2.dll.cpp
+
+1352910050 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\libaubioext-2.dll.cpp
+
+1352910053 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\libfftw3-3.dll.cpp
+
+1352910054 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\libsamplerate-0.dll.cpp
+
+1352910055 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\libsndfile-1.dll.cpp
+
+1352711486 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\m_memory.c
+	"m_memory.h"
+
+1352711488 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\m_memory.h
+	<stdlib.h>
+	<string.h>
+	"ext.h"
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext.h
+	"ext_prefix.h"
+	"ext_mess.h"
+	"ext_types.h"
+	"ext_maxtypes.h"
+	"ext_byteorder.h"
+	"ext_proto.h"
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_prefix.h
+	<MacTypes.h>
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<ctype.h>
+	<math.h>
+	<string.h>
+	<setjmp.h>
+	<assert.h>
+	<windows.h>
+	<richedit.h>
+	<commctrl.h>
+	"ext_prefix_win.h"
+	"qtml.h"
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_mess.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_types.h
+	<Types.h>
+	<Quickdraw.h>
+	<MacTypes.h>
+	<Quickdraw.h>
+	<Controls.h>
+
+1253197732 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\types.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_maxtypes.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_byteorder.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_proto.h
+	"ext_types.h"
+	"ext_maxtypes.h"
+	"ext_sysmem.h"
+	"ext_sysfile.h"
+	"ext_systime.h"
+	"ext_expr.h"
+	"ext_path.h"
+	"ext_qtimage.h"
+	"ext_wind.h"
+	"ext_proto_win.h"
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_sysmem.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_sysfile.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_systime.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_expr.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_path.h
+	<Files.h>
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_qtimage.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_wind.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_proto_win.h
+
+1352369570 source:c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubioonset~.c
+	"ext.h"
+	"ext_obex.h"
+	"z_dsp.h"
+	"aubio.h"
+	"m_memory.h"
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_obex.h
+	"commonsyms.h"
+	"ext_linklist.h"
+	"ext_hashtab.h"
+	"ext_atomarray.h"
+	"ext_obex_util.h"
+	"ext_dictionary.h"
+	"ext_obstring.h"
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\commonsyms.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_linklist.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_hashtab.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_atomarray.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_obex_util.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_dictionary.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_obstring.h
+
+1327068394 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\msp-includes\z_dsp.h
+	"z_sampletype.h"
+	"ext_systhread.h"
+	"ext_linklist.h"
+
+1327068394 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\msp-includes\z_sampletype.h
+
+1327068392 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\c74support\max-includes\ext_systhread.h
+	"ext_obex.h"
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\aubio.h
+	"config.h"
+	"types.h"
+	"sample.h"
+	"fft.h"
+	"phasevoc.h"
+	"mathutils.h"
+	"scale.h"
+	"hist.h"
+	"onsetdetection.h"
+	"tss.h"
+	"resample.h"
+	"peakpick.h"
+	"biquad.h"
+	"filter.h"
+	"pitchdetection.h"
+	"pitchmcomb.h"
+	"pitchyin.h"
+	"pitchyinfft.h"
+	"pitchschmitt.h"
+	"pitchfcomb.h"
+	"beattracking.h"
+	"onset.h"
+	"tempo.h"
+
+1253197732 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\libsamplerate\config.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\sample.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\fft.h
+	<fftw3.h>
+
+1253197732 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\fft\fftw3.h
+	<stdio.h>
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\phasevoc.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\mathutils.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\scale.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\hist.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\onsetdetection.h
+
+1253197732 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\tss.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\resample.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\peakpick.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\biquad.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\filter.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\pitchdetection.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\pitchmcomb.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\pitchyin.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\pitchyinfft.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\pitchschmitt.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\pitchfcomb.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\beattracking.h
+
+1253197730 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\onset.h
+
+1253197732 c:\documents and settings\mariusm\my documents\inesc\maxsdk-6.0.4\examples\drumtranscription\aubioonset~\aubiofullwinuni\include\aubio\tempo.h
+
