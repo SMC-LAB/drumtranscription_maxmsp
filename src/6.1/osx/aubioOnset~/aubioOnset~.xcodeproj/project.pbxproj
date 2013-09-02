@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 44;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22CF119B0EE9A8250054F513 /* aubioOnset~.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CF119A0EE9A8250054F513 /* aubioOnset~.c */; };
+		22CF119E0EE9A82E0054F513 /* MaxAudioAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CF119D0EE9A82E0054F513 /* MaxAudioAPI.framework */; };
+		DF900680164A7EB800F82FF9 /* m_memory.c in Sources */ = {isa = PBXBuildFile; fileRef = DF90067E164A7EB800F82FF9 /* m_memory.c */; };
+		DF900681164A7EB800F82FF9 /* m_memory.h in Headers */ = {isa = PBXBuildFile; fileRef = DF90067F164A7EB800F82FF9 /* m_memory.h */; };
+		DFA62686164BBCE90096428F /* fftw3.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62660164BBCE90096428F /* fftw3.h */; };
+		DFA62687164BBCE90096428F /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62662164BBCE90096428F /* common.h */; };
+		DFA62688164BBCE90096428F /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62663164BBCE90096428F /* config.h */; };
+		DFA62689164BBCE90096428F /* fastest_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62664164BBCE90096428F /* fastest_coeffs.h */; };
+		DFA6268A164BBCE90096428F /* float_cast.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62665164BBCE90096428F /* float_cast.h */; };
+		DFA6268B164BBCE90096428F /* high_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62666164BBCE90096428F /* high_qual_coeffs.h */; };
+		DFA6268C164BBCE90096428F /* mid_qual_coeffs.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62667164BBCE90096428F /* mid_qual_coeffs.h */; };
+		DFA6268D164BBCE90096428F /* samplerate.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA62668164BBCE90096428F /* samplerate.h */; };
+		DFA6268E164BBCE90096428F /* sndfile.h in Headers */ = {isa = PBXBuildFile; fileRef = DFA6266A164BBCE90096428F /* sndfile.h */; };
+		DFA6268F164BBCE90096428F /* sndfile.hh in Headers */ = {isa = PBXBuildFile; fileRef = DFA6266B164BBCE90096428F /* sndfile.hh */; };
+		DFFDB3A217BA832B007A0020 /* aubio.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB38A17BA832B007A0020 /* aubio.h */; };
+		DFFDB3A317BA832B007A0020 /* aubio_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB38B17BA832B007A0020 /* aubio_priv.h */; };
+		DFFDB3A417BA832B007A0020 /* beattracking.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB38C17BA832B007A0020 /* beattracking.h */; };
+		DFFDB3A517BA832B007A0020 /* biquad.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB38D17BA832B007A0020 /* biquad.h */; };
+		DFFDB3A617BA832B007A0020 /* fft.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB38E17BA832B007A0020 /* fft.h */; };
+		DFFDB3A717BA832B007A0020 /* filter.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB38F17BA832B007A0020 /* filter.h */; };
+		DFFDB3A817BA832B007A0020 /* hist.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39017BA832B007A0020 /* hist.h */; };
+		DFFDB3A917BA832B007A0020 /* mathutils.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39117BA832B007A0020 /* mathutils.h */; };
+		DFFDB3AA17BA832B007A0020 /* onset.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39217BA832B007A0020 /* onset.h */; };
+		DFFDB3AB17BA832B007A0020 /* onsetdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39317BA832B007A0020 /* onsetdetection.h */; };
+		DFFDB3AC17BA832B007A0020 /* peakpick.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39417BA832B007A0020 /* peakpick.h */; };
+		DFFDB3AD17BA832B007A0020 /* phasevoc.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39517BA832B007A0020 /* phasevoc.h */; };
+		DFFDB3AE17BA832B007A0020 /* pitchdetection.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39617BA832B007A0020 /* pitchdetection.h */; };
+		DFFDB3AF17BA832B007A0020 /* pitchfcomb.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39717BA832B007A0020 /* pitchfcomb.h */; };
+		DFFDB3B017BA832B007A0020 /* pitchmcomb.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39817BA832B007A0020 /* pitchmcomb.h */; };
+		DFFDB3B117BA832B007A0020 /* pitchschmitt.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39917BA832B007A0020 /* pitchschmitt.h */; };
+		DFFDB3B217BA832B007A0020 /* pitchyin.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39A17BA832B007A0020 /* pitchyin.h */; };
+		DFFDB3B317BA832B007A0020 /* pitchyinfft.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39B17BA832B007A0020 /* pitchyinfft.h */; };
+		DFFDB3B417BA832B007A0020 /* resample.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39C17BA832B007A0020 /* resample.h */; };
+		DFFDB3B517BA832B007A0020 /* sample.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39D17BA832B007A0020 /* sample.h */; };
+		DFFDB3B617BA832B007A0020 /* scale.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39E17BA832B007A0020 /* scale.h */; };
+		DFFDB3B717BA832B007A0020 /* tempo.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB39F17BA832B007A0020 /* tempo.h */; };
+		DFFDB3B817BA832B007A0020 /* tss.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB3A017BA832B007A0020 /* tss.h */; };
+		DFFDB3B917BA832B007A0020 /* types.h in Headers */ = {isa = PBXBuildFile; fileRef = DFFDB3A117BA832B007A0020 /* types.h */; };
+		DFFDB42D17BA9B55007A0020 /* aubioOSX64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFDB42C17BA9B55007A0020 /* aubioOSX64.a */; };
+		DFFDB42F17BA9B85007A0020 /* aubioOSX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFFDB42E17BA9B85007A0020 /* aubioOSX.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22CF10220EE984600054F513 /* maxmspsdk.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = maxmspsdk.xcconfig; path = ../../maxmspsdk.xcconfig; sourceTree = SOURCE_ROOT; };
+		22CF119A0EE9A8250054F513 /* aubioOnset~.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "aubioOnset~.c"; sourceTree = "<group>"; };
+		22CF119D0EE9A82E0054F513 /* MaxAudioAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MaxAudioAPI.framework; path = "../../../c74support/msp-includes/MaxAudioAPI.framework"; sourceTree = SOURCE_ROOT; };
+		2FBBEAE508F335360078DB84 /* aubioOnset~.mxo */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "aubioOnset~.mxo"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF90067E164A7EB800F82FF9 /* m_memory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = m_memory.c; sourceTree = "<group>"; };
+		DF90067F164A7EB800F82FF9 /* m_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_memory.h; sourceTree = "<group>"; };
+		DFA62660164BBCE90096428F /* fftw3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fftw3.h; sourceTree = "<group>"; };
+		DFA62662164BBCE90096428F /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		DFA62663164BBCE90096428F /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		DFA62664164BBCE90096428F /* fastest_coeffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fastest_coeffs.h; sourceTree = "<group>"; };
+		DFA62665164BBCE90096428F /* float_cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = float_cast.h; sourceTree = "<group>"; };
+		DFA62666164BBCE90096428F /* high_qual_coeffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = high_qual_coeffs.h; sourceTree = "<group>"; };
+		DFA62667164BBCE90096428F /* mid_qual_coeffs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mid_qual_coeffs.h; sourceTree = "<group>"; };
+		DFA62668164BBCE90096428F /* samplerate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = samplerate.h; sourceTree = "<group>"; };
+		DFA6266A164BBCE90096428F /* sndfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sndfile.h; sourceTree = "<group>"; };
+		DFA6266B164BBCE90096428F /* sndfile.hh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sndfile.hh; sourceTree = "<group>"; };
+		DFFDB38A17BA832B007A0020 /* aubio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aubio.h; sourceTree = "<group>"; };
+		DFFDB38B17BA832B007A0020 /* aubio_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aubio_priv.h; sourceTree = "<group>"; };
+		DFFDB38C17BA832B007A0020 /* beattracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beattracking.h; sourceTree = "<group>"; };
+		DFFDB38D17BA832B007A0020 /* biquad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = biquad.h; sourceTree = "<group>"; };
+		DFFDB38E17BA832B007A0020 /* fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft.h; sourceTree = "<group>"; };
+		DFFDB38F17BA832B007A0020 /* filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = filter.h; sourceTree = "<group>"; };
+		DFFDB39017BA832B007A0020 /* hist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hist.h; sourceTree = "<group>"; };
+		DFFDB39117BA832B007A0020 /* mathutils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mathutils.h; sourceTree = "<group>"; };
+		DFFDB39217BA832B007A0020 /* onset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onset.h; sourceTree = "<group>"; };
+		DFFDB39317BA832B007A0020 /* onsetdetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = onsetdetection.h; sourceTree = "<group>"; };
+		DFFDB39417BA832B007A0020 /* peakpick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = peakpick.h; sourceTree = "<group>"; };
+		DFFDB39517BA832B007A0020 /* phasevoc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = phasevoc.h; sourceTree = "<group>"; };
+		DFFDB39617BA832B007A0020 /* pitchdetection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchdetection.h; sourceTree = "<group>"; };
+		DFFDB39717BA832B007A0020 /* pitchfcomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchfcomb.h; sourceTree = "<group>"; };
+		DFFDB39817BA832B007A0020 /* pitchmcomb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchmcomb.h; sourceTree = "<group>"; };
+		DFFDB39917BA832B007A0020 /* pitchschmitt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchschmitt.h; sourceTree = "<group>"; };
+		DFFDB39A17BA832B007A0020 /* pitchyin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchyin.h; sourceTree = "<group>"; };
+		DFFDB39B17BA832B007A0020 /* pitchyinfft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pitchyinfft.h; sourceTree = "<group>"; };
+		DFFDB39C17BA832B007A0020 /* resample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = resample.h; sourceTree = "<group>"; };
+		DFFDB39D17BA832B007A0020 /* sample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sample.h; sourceTree = "<group>"; };
+		DFFDB39E17BA832B007A0020 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = scale.h; sourceTree = "<group>"; };
+		DFFDB39F17BA832B007A0020 /* tempo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempo.h; sourceTree = "<group>"; };
+		DFFDB3A017BA832B007A0020 /* tss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tss.h; sourceTree = "<group>"; };
+		DFFDB3A117BA832B007A0020 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		DFFDB42C17BA9B55007A0020 /* aubioOSX64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = aubioOSX64.a; sourceTree = "<group>"; };
+		DFFDB42E17BA9B85007A0020 /* aubioOSX.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = aubioOSX.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBBEADC08F335360078DB84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF119E0EE9A82E0054F513 /* MaxAudioAPI.framework in Frameworks */,
+				DFFDB42D17BA9B55007A0020 /* aubioOSX64.a in Frameworks */,
+				DFFDB42F17BA9B85007A0020 /* aubioOSX.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* iterator */ = {
+			isa = PBXGroup;
+			children = (
+				22CF10220EE984600054F513 /* maxmspsdk.xcconfig */,
+				08FB77ADFE841716C02AAC07 /* Source */,
+				089C1671FE841209C02AAC07 /* External Frameworks and Libraries */,
+				19C28FB4FE9D528D11CA2CBB /* Products */,
+			);
+			name = iterator;
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				DFA62644164BBCE90096428F /* aubioFullOSXUni */,
+				22CF119D0EE9A82E0054F513 /* MaxAudioAPI.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ADFE841716C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				DF90067E164A7EB800F82FF9 /* m_memory.c */,
+				DF90067F164A7EB800F82FF9 /* m_memory.h */,
+				22CF119A0EE9A8250054F513 /* aubioOnset~.c */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		19C28FB4FE9D528D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBBEAE508F335360078DB84 /* aubioOnset~.mxo */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFA62644164BBCE90096428F /* aubioFullOSXUni */ = {
+			isa = PBXGroup;
+			children = (
+				DFA62645164BBCE90096428F /* include */,
+				DFFDB32F17BA81C6007A0020 /* lib */,
+			);
+			path = aubioFullOSXUni;
+			sourceTree = "<group>";
+		};
+		DFA62645164BBCE90096428F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDB38917BA832B007A0020 /* aubio */,
+				DFA6265F164BBCE90096428F /* fft */,
+				DFA62661164BBCE90096428F /* libsamplerate */,
+				DFA62669164BBCE90096428F /* libsndfile */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		DFA6265F164BBCE90096428F /* fft */ = {
+			isa = PBXGroup;
+			children = (
+				DFA62660164BBCE90096428F /* fftw3.h */,
+			);
+			path = fft;
+			sourceTree = "<group>";
+		};
+		DFA62661164BBCE90096428F /* libsamplerate */ = {
+			isa = PBXGroup;
+			children = (
+				DFA62662164BBCE90096428F /* common.h */,
+				DFA62663164BBCE90096428F /* config.h */,
+				DFA62664164BBCE90096428F /* fastest_coeffs.h */,
+				DFA62665164BBCE90096428F /* float_cast.h */,
+				DFA62666164BBCE90096428F /* high_qual_coeffs.h */,
+				DFA62667164BBCE90096428F /* mid_qual_coeffs.h */,
+				DFA62668164BBCE90096428F /* samplerate.h */,
+			);
+			path = libsamplerate;
+			sourceTree = "<group>";
+		};
+		DFA62669164BBCE90096428F /* libsndfile */ = {
+			isa = PBXGroup;
+			children = (
+				DFA6266A164BBCE90096428F /* sndfile.h */,
+				DFA6266B164BBCE90096428F /* sndfile.hh */,
+			);
+			path = libsndfile;
+			sourceTree = "<group>";
+		};
+		DFFDB32F17BA81C6007A0020 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDB42C17BA9B55007A0020 /* aubioOSX64.a */,
+				DFFDB42E17BA9B85007A0020 /* aubioOSX.a */,
+			);
+			name = lib;
+			path = aubioFullOSXUni/lib;
+			sourceTree = SOURCE_ROOT;
+		};
+		DFFDB38917BA832B007A0020 /* aubio */ = {
+			isa = PBXGroup;
+			children = (
+				DFFDB38A17BA832B007A0020 /* aubio.h */,
+				DFFDB38B17BA832B007A0020 /* aubio_priv.h */,
+				DFFDB38C17BA832B007A0020 /* beattracking.h */,
+				DFFDB38D17BA832B007A0020 /* biquad.h */,
+				DFFDB38E17BA832B007A0020 /* fft.h */,
+				DFFDB38F17BA832B007A0020 /* filter.h */,
+				DFFDB39017BA832B007A0020 /* hist.h */,
+				DFFDB39117BA832B007A0020 /* mathutils.h */,
+				DFFDB39217BA832B007A0020 /* onset.h */,
+				DFFDB39317BA832B007A0020 /* onsetdetection.h */,
+				DFFDB39417BA832B007A0020 /* peakpick.h */,
+				DFFDB39517BA832B007A0020 /* phasevoc.h */,
+				DFFDB39617BA832B007A0020 /* pitchdetection.h */,
+				DFFDB39717BA832B007A0020 /* pitchfcomb.h */,
+				DFFDB39817BA832B007A0020 /* pitchmcomb.h */,
+				DFFDB39917BA832B007A0020 /* pitchschmitt.h */,
+				DFFDB39A17BA832B007A0020 /* pitchyin.h */,
+				DFFDB39B17BA832B007A0020 /* pitchyinfft.h */,
+				DFFDB39C17BA832B007A0020 /* resample.h */,
+				DFFDB39D17BA832B007A0020 /* sample.h */,
+				DFFDB39E17BA832B007A0020 /* scale.h */,
+				DFFDB39F17BA832B007A0020 /* tempo.h */,
+				DFFDB3A017BA832B007A0020 /* tss.h */,
+				DFFDB3A117BA832B007A0020 /* types.h */,
+			);
+			path = aubio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2FBBEAD708F335360078DB84 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF900681164A7EB800F82FF9 /* m_memory.h in Headers */,
+				DFA62686164BBCE90096428F /* fftw3.h in Headers */,
+				DFA62687164BBCE90096428F /* common.h in Headers */,
+				DFA62688164BBCE90096428F /* config.h in Headers */,
+				DFA62689164BBCE90096428F /* fastest_coeffs.h in Headers */,
+				DFA6268A164BBCE90096428F /* float_cast.h in Headers */,
+				DFA6268B164BBCE90096428F /* high_qual_coeffs.h in Headers */,
+				DFA6268C164BBCE90096428F /* mid_qual_coeffs.h in Headers */,
+				DFA6268D164BBCE90096428F /* samplerate.h in Headers */,
+				DFA6268E164BBCE90096428F /* sndfile.h in Headers */,
+				DFA6268F164BBCE90096428F /* sndfile.hh in Headers */,
+				DFFDB3A217BA832B007A0020 /* aubio.h in Headers */,
+				DFFDB3A317BA832B007A0020 /* aubio_priv.h in Headers */,
+				DFFDB3A417BA832B007A0020 /* beattracking.h in Headers */,
+				DFFDB3A517BA832B007A0020 /* biquad.h in Headers */,
+				DFFDB3A617BA832B007A0020 /* fft.h in Headers */,
+				DFFDB3A717BA832B007A0020 /* filter.h in Headers */,
+				DFFDB3A817BA832B007A0020 /* hist.h in Headers */,
+				DFFDB3A917BA832B007A0020 /* mathutils.h in Headers */,
+				DFFDB3AA17BA832B007A0020 /* onset.h in Headers */,
+				DFFDB3AB17BA832B007A0020 /* onsetdetection.h in Headers */,
+				DFFDB3AC17BA832B007A0020 /* peakpick.h in Headers */,
+				DFFDB3AD17BA832B007A0020 /* phasevoc.h in Headers */,
+				DFFDB3AE17BA832B007A0020 /* pitchdetection.h in Headers */,
+				DFFDB3AF17BA832B007A0020 /* pitchfcomb.h in Headers */,
+				DFFDB3B017BA832B007A0020 /* pitchmcomb.h in Headers */,
+				DFFDB3B117BA832B007A0020 /* pitchschmitt.h in Headers */,
+				DFFDB3B217BA832B007A0020 /* pitchyin.h in Headers */,
+				DFFDB3B317BA832B007A0020 /* pitchyinfft.h in Headers */,
+				DFFDB3B417BA832B007A0020 /* resample.h in Headers */,
+				DFFDB3B517BA832B007A0020 /* sample.h in Headers */,
+				DFFDB3B617BA832B007A0020 /* scale.h in Headers */,
+				DFFDB3B717BA832B007A0020 /* tempo.h in Headers */,
+				DFFDB3B817BA832B007A0020 /* tss.h in Headers */,
+				DFFDB3B917BA832B007A0020 /* types.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2FBBEAD608F335360078DB84 /* max-external */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */;
+			buildPhases = (
+				2FBBEAD708F335360078DB84 /* Headers */,
+				2FBBEAD808F335360078DB84 /* Resources */,
+				2FBBEADA08F335360078DB84 /* Sources */,
+				2FBBEADC08F335360078DB84 /* Frameworks */,
+				2FBBEADF08F335360078DB84 /* Rez */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "max-external";
+			productName = iterator;
+			productReference = 2FBBEAE508F335360078DB84 /* aubioOnset~.mxo */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "aubioOnset~" */;
+			compatibilityVersion = "Xcode 3.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* iterator */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBBEAD608F335360078DB84 /* max-external */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBBEAD808F335360078DB84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		2FBBEADF08F335360078DB84 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBBEADA08F335360078DB84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF119B0EE9A8250054F513 /* aubioOnset~.c in Sources */,
+				DF900680164A7EB800F82FF9 /* m_memory.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBBEAD008F335010078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+			};
+			name = Development;
+		};
+		2FBBEAD108F335010078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OTHER_LDFLAGS = "$(C74_SYM_LINKER_FLAGS)";
+			};
+			name = Deployment;
+		};
+		2FBBEAE108F335360078DB84 /* Development */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../c74support/msp-includes\"",
+				);
+				GCC_OPTIMIZATION_LEVEL = 0;
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/aubioFullOSXUni/lib\"";
+				PRODUCT_NAME = "aubioOnset~";
+			};
+			name = Development;
+		};
+		2FBBEAE208F335360078DB84 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CF10220EE984600054F513 /* maxmspsdk.xcconfig */;
+			buildSettings = {
+				ARCHS = (
+					i386,
+					x86_64,
+				);
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../c74support/msp-includes\"",
+				);
+				LIBRARY_SEARCH_PATHS = "\"$(SRCROOT)/aubioFullOSXUni/lib\"";
+				PRODUCT_NAME = "aubioOnset~";
+			};
+			name = Deployment;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBBEACF08F335010078DB84 /* Build configuration list for PBXProject "aubioOnset~" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAD008F335010078DB84 /* Development */,
+				2FBBEAD108F335010078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+		2FBBEAE008F335360078DB84 /* Build configuration list for PBXNativeTarget "max-external" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBBEAE108F335360078DB84 /* Development */,
+				2FBBEAE208F335360078DB84 /* Deployment */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Development;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
