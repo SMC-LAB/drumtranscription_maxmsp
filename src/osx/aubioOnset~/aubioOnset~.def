@@ -1,4 +1,0 @@
-LIBRARY aubioOnset~.mxe
-
-EXPORTS
-	main

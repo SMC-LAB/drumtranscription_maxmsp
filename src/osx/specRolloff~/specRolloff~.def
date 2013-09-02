@@ -1,4 +1,0 @@
-LIBRARY specRolloff~.mxe
-
-EXPORTS
-	main

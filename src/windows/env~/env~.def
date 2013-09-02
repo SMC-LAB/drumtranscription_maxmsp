@@ -1,4 +1,0 @@
-LIBRARY env~.mxe
-
-EXPORTS
-	main

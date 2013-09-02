@@ -11,17 +11,17 @@
 	<key>CFBundleIdentifier</key>
 	<string>com.cycling74.timbreID</string>
 	<key>CFBundleInfoDictionaryVersion</key>
-	<string>6.0</string>
+	<string>6.1.1</string>
 	<key>CFBundleLongVersionString</key>
-	<string>timbreID 6.0.0, Copyright 2010 Cycling '74</string>
+	<string>timbreID 6.1.0, Copyright 2013 Cycling '74</string>
 	<key>CFBundlePackageType</key>
 	<string>iLaX</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.0.0</string>
+	<string>6.1.0</string>
 	<key>CFBundleSignature</key>
 	<string>max2</string>
 	<key>CFBundleVersion</key>
-	<string>6.0.0</string>
+	<string>6.1.0</string>
 	<key>CSResourcesFileMapped</key>
 	<true/>
 	<key>DTCompiler</key>
@@ -31,9 +31,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>10K549</string>
+	<string>11G63</string>
 	<key>DTSDKName</key>
-	<string>macosx10.6</string>
+	<string></string>
 	<key>DTXcode</key>
 	<string>0420</string>
 	<key>DTXcodeBuild</key>

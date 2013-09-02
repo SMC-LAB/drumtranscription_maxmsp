@@ -88,7 +88,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "list" ],
 					"patching_rect" : [ 105.0, 125.0, 140.0, 19.0 ],
-					"text" : "featureWeightedMean 3 4"
+					"text" : "featureWeightedMean 3 3"
 				}
 
 			}
