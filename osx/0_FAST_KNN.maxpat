@@ -3,11 +3,12 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x64"
 		}
 ,
-		"rect" : [ 228.0, 98.0, 769.0, 615.0 ],
+		"rect" : [ 496.0, 149.0, 769.0, 615.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -27,6 +28,110 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-49",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "int", "int" ],
+					"patching_rect" : [ 236.5, 540.0, 51.0, 20.0 ],
+					"text" : "velocity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-96",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 307.0, 588.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 476.0, 71.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-95",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 250.5, 588.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 476.0, 38.5, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-93",
+					"maxclass" : "number",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 193.5, 588.0, 50.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 476.0, 7.0, 50.0, 20.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-55",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 456.0, 429.0, 32.5, 20.0 ],
+					"text" : "t l b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 236.5, 429.0, 32.5, 20.0 ],
+					"text" : "t l b"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"patching_rect" : [ 26.0, 429.0, 32.5, 20.0 ],
+					"text" : "t l b"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -623,7 +728,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 456.0, 513.0, 59.0, 20.0 ],
+					"patching_rect" : [ 456.0, 504.0, 59.0, 20.0 ],
 					"text" : "s b_hihat"
 				}
 
@@ -636,7 +741,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 236.5, 513.0, 63.0, 20.0 ],
+					"patching_rect" : [ 236.5, 504.0, 63.0, 20.0 ],
 					"text" : "s b_snare"
 				}
 
@@ -649,7 +754,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 26.0, 513.0, 59.0, 20.0 ],
+					"patching_rect" : [ 26.0, 504.0, 59.0, 20.0 ],
 					"text" : "s b_bass"
 				}
 
@@ -764,7 +869,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-24", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-15", 0 ]
@@ -791,7 +896,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-23", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-18", 0 ]
@@ -1007,6 +1112,33 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-95", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-96", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-49", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1029,6 +1161,60 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-51", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-53", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-20", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-55", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-49", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-55", 1 ]
 				}
 
 			}
@@ -1088,7 +1274,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-20", 0 ],
+					"destination" : [ "obj-55", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-7", 0 ]
@@ -1117,127 +1303,134 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "onsets_aubio_bass_snare_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "onsets_aubio_hihat_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compute_features_filter_hihat_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "features_all_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generate_bangs_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filter_hihat_complex.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compute_features_filter_kick_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filter_bass_complex.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "compute_features_filter_snare_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filter_snare_complex.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detect_drum_classes_hihat_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "initKNN.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detect_drum_classes_snare_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detect_drum_classes_kick_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "resynthesis.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth_kick.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth_snare.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "synth_hihat.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "velocity.maxpat",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -1254,7 +1447,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "loudness~.mxo",
+				"name" : "env~.mxo",
 				"type" : "iLaX"
 			}
 , 			{

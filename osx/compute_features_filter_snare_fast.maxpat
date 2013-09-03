@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 316.0, 326.0, 361.0, 312.0 ],
@@ -27,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 209.0, 239.0, 56.0, 18.0 ],
+					"text" : "s s_cRMS"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
@@ -59,7 +73,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 116.0, 184.0, 54.0, 18.0 ],
+					"patching_rect" : [ 118.0, 195.0, 54.0, 18.0 ],
 					"text" : "s b_snare"
 				}
 
@@ -166,7 +180,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 170.0, 184.0, 150.0, 18.0 ],
+					"patching_rect" : [ 172.0, 195.0, 150.0, 18.0 ],
 					"text" : "Detected Earlier Snare"
 				}
 
@@ -178,8 +192,8 @@
 					"id" : "obj-14",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 51.0, 164.0, 84.0, 18.0 ],
 					"text" : "features_all_fast"
 				}
@@ -260,6 +274,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-7", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-14", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -288,22 +311,22 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "features_all_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generate_bangs_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "filter_snare_complex.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -312,7 +335,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "loudness~.mxo",
+				"name" : "env~.mxo",
 				"type" : "iLaX"
 			}
 , 			{

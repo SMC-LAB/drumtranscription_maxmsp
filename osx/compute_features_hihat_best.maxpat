@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 876.0, 246.0, 310.0, 276.0 ],
@@ -27,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 176.0, 194.0, 57.0, 18.0 ],
+					"text" : "s h_cRMS"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
@@ -150,8 +164,8 @@
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 31.0, 158.0, 87.0, 18.0 ],
 					"text" : "features_all_best"
 				}
@@ -205,6 +219,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -233,24 +256,20 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "features_all_best.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generate_bangs_best.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "featureWeightedMean.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "loudness~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -271,6 +290,10 @@
 			}
 , 			{
 				"name" : "specCentroid~.mxo",
+				"type" : "iLaX"
+			}
+, 			{
+				"name" : "env~.mxo",
 				"type" : "iLaX"
 			}
 , 			{

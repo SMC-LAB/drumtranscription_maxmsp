@@ -3,8 +3,9 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 6,
-			"minor" : 0,
-			"revision" : 7
+			"minor" : 1,
+			"revision" : 3,
+			"architecture" : "x64"
 		}
 ,
 		"rect" : [ 876.0, 246.0, 312.0, 253.0 ],
@@ -27,6 +28,19 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 218.0, 180.0, 57.0, 18.0 ],
+					"text" : "s b_cRMS"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
@@ -150,8 +164,8 @@
 					"id" : "obj-12",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"numoutlets" : 5,
+					"outlettype" : [ "", "", "", "", "" ],
 					"patching_rect" : [ 81.0, 140.0, 84.0, 18.0 ],
 					"text" : "features_all_fast"
 				}
@@ -196,6 +210,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-12", 4 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -233,15 +256,15 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "features_all_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "generate_bangs_fast.maxpat",
-				"bootpath" : "/Users/mmiron/Documents/INESC/drum_transcription/_DISTRIBUTE_MAX",
-				"patcherrelativepath" : "",
+				"bootpath" : "/Users/mmiron/Documents/INESC/git/drumtranscription_maxmsp 6.1/osx",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -250,7 +273,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "loudness~.mxo",
+				"name" : "env~.mxo",
 				"type" : "iLaX"
 			}
 , 			{
