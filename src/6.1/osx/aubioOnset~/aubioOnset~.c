@@ -213,8 +213,15 @@ void aubioOnset_free(t_aubioOnset *x)
 
 static void aubioOnset_threshold (t_aubioOnset * x, t_float f)
 {
-    x->threshold = (f < 1e-5) ? 0.1 : (f > 0.999) ? 0.999 : f;
-    aubio_onset_set_threshold(x->o,f); 
+    //x->threshold = (f < 1e-5) ? 0.1 : (f > 0.999) ? 0.999 : f;
+    //aubio_onset_set_threshold(x->o,f);
+    if (f < 1e-5)
+        x->threshold = 0.1;
+    else if (f > 0.999)
+        x->threshold = 0.9;
+    else
+        x->threshold = f;
+    aubio_onset_set_threshold(x->o, x->threshold);
     post ("aubioonsethfc~ threshold:\t%f", x->threshold);
 }
 
