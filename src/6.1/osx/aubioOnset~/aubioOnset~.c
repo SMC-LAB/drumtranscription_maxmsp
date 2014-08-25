@@ -36,7 +36,7 @@ typedef struct _aubioOnset {
 
 
 // method prototypes
-static void aubioOnset_threshold (t_aubioOnset * x, t_float f);
+static void aubioOnset_threshold (t_aubioOnset * x, double f);
 static void aubioOnset_silence (t_aubioOnset * x, int s);
 static void aubioOnset_minioi (t_aubioOnset * x, int m);
 static void aubioOnset_debug (t_aubioOnset * x);
@@ -211,7 +211,7 @@ void aubioOnset_free(t_aubioOnset *x)
 //***********************************************************************************************
 
 
-static void aubioOnset_threshold (t_aubioOnset * x, t_float f)
+static void aubioOnset_threshold (t_aubioOnset * x, double f)
 {
     //x->threshold = (f < 1e-5) ? 0.1 : (f > 0.999) ? 0.999 : f;
     //aubio_onset_set_threshold(x->o,f);
